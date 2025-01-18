@@ -101,7 +101,7 @@ function App() {
 
 
               <g fill={"#453232"}>
-                <Circle cx={185} cy={590 + 267} d={convertFeetToPixels(1.25)} label={"rock"}/>
+                <Circle cx={130} cy={590 + 267} d={convertFeetToPixels(1.25)} label={"rock"}/>
                 <Circle cx={380} cy={580 + 267} d={convertFeetToPixels(1.25)} label={"rock"}/>
               </g>
 
@@ -110,39 +110,27 @@ function App() {
                 {/*https://www.waterwiseplants.org/find-a-plant/mops-dwarf-mugo-pine/#header*/}
                 <Circle cx={600} cy={770} d={convertFeetToPixels(3)} label={"Mugo Pine"}/>
               </g>
-              <g fill={"#cd3d33"}>
-                {/* 6" tall */}
-                {/*https://www.highcountrygardens.com/product/perennial-plants/zauschneria-garrettii-orange-carpet*/}
-                <Circle cx={275} cy={95 + 267} d={convertFeetToPixels(1.5)}
-                        label={"Orange Carpet"}/>
-                <Circle cx={230} cy={95 + 267} d={convertFeetToPixels(1.5)}
-                        label={"Orange Carpet"}/>
-                <Circle cx={185} cy={95 + 267} d={convertFeetToPixels(1.5)}
-                        label={"Orange Carpet"}/>
-                <Circle cx={205} cy={130 + 267} d={convertFeetToPixels(1.5)}
-                        label={"Orange Carpet"}/>
-                <Circle cx={250} cy={130 + 267} d={convertFeetToPixels(1.5)}
-                        label={"Orange Carpet"}/>
-              </g>
               <g fill={"#bda7ee"}>
                 {/* 10" tall */}
                 {/*https://www.highcountrygardens.com/product/perennial-plants/nepeta-little-trudy-catmint*/}
+                <Circle cx={150} cy={95 + 267} d={convertFeetToPixels(1.33)} label={"Catmint"}/>
+                <Circle cx={190} cy={95 + 267} d={convertFeetToPixels(1.33)} label={"Catmint"}/>
+                <Circle cx={230} cy={95 + 267} d={convertFeetToPixels(1.33)} label={"Catmint"}/>
+                <Circle cx={270} cy={95 + 267} d={convertFeetToPixels(1.33)} label={"Catmint"}/>
                 <Circle cx={310} cy={95 + 267} d={convertFeetToPixels(1.33)} label={"Catmint"}/>
-                <Circle cx={350} cy={95 + 267} d={convertFeetToPixels(1.33)} label={"Catmint"}/>
-                <Circle cx={390} cy={95 + 267} d={convertFeetToPixels(1.33)} label={"Catmint"}/>
-                <Circle cx={115} cy={230 + 267} d={convertFeetToPixels(1.33)} label={"Catmint"}/>
-                <Circle cx={145} cy={250 + 267} d={convertFeetToPixels(1.33)} label={"Catmint"}/>
-                <Circle cx={115} cy={260 + 267} d={convertFeetToPixels(1.33)} label={"Catmint"}/>
-                <Circle cx={145} cy={280 + 267} d={convertFeetToPixels(1.33)} label={"Catmint"}/>
-                <Circle cx={115} cy={290 + 267} d={convertFeetToPixels(1.33)} label={"Catmint"}/>
+                <Circle cx={150} cy={595 + 267} d={convertFeetToPixels(1.33)} label={"Catmint"}/>
+                <Circle cx={190} cy={595 + 267} d={convertFeetToPixels(1.33)} label={"Catmint"}/>
+                <Circle cx={230} cy={595 + 267} d={convertFeetToPixels(1.33)} label={"Catmint"}/>
+                <Circle cx={270} cy={595 + 267} d={convertFeetToPixels(1.33)} label={"Catmint"}/>
+                <Circle cx={310} cy={595 + 267} d={convertFeetToPixels(1.33)} label={"Catmint"}/>
               </g>
 
               <g fill={"#fde933"}>
                 {/* 18" tall*/}
                 {/*https://www.highcountrygardens.com/product/perennial-plants/achillea-moonshine*/}
-                <Circle cx={175} cy={350 + 267} d={convertFeetToPixels(2)} label={"Yarrow"}/>
-                <Circle cx={130} cy={340 + 267} d={convertFeetToPixels(2)} label={"Yarrow"}/>
-                <Circle cx={130} cy={380 + 267} d={convertFeetToPixels(2)} label={"Yarrow"}/>
+                {/*<Circle cx={175} cy={310 + 267} d={convertFeetToPixels(2)} label={"Yarrow"}/>*/}
+                {/*<Circle cx={175} cy={350 + 267} d={convertFeetToPixels(2)} label={"Yarrow"}/>*/}
+                {/*<Circle cx={130} cy={340 + 267} d={convertFeetToPixels(2)} label={"Yarrow"}/>*/}
                 <Circle cx={380} cy={210 + 267} d={convertFeetToPixels(2)} label={"Yarrow"}/>
                 <Circle cx={340} cy={220 + 267} d={convertFeetToPixels(2)} label={"Yarrow"}/>
                 <Circle cx={380} cy={260 + 267} d={convertFeetToPixels(2)} label={"Yarrow"}/>
@@ -167,11 +155,16 @@ function App() {
               {/*</g>*/}
 
 
-              {/*<g fill={"#aeb429"}>*/}
+              <g fill={"#aeb429"}>
               {/*  /!*https://www.highcountrygardens.com/product/perennial-plants/solidago-sphacelata-golden-fleece*!/*/}
               {/*  <Circle cx={190} cy={520 + 267} d={convertFeetToPixels(2)} label={"Goldenrod"}/>*/}
-              {/*  <Circle cx={380} cy={400 + 267} d={convertFeetToPixels(2)} label={"Goldenrod"}/>*/}
-              {/*</g>*/}
+                <Circle cx={130} cy={490 + 267} d={convertFeetToPixels(2)} label={"Goldenrod"}/>
+                <Circle cx={180} cy={490 + 267} d={convertFeetToPixels(2)} label={"Goldenrod"}/>
+                <Circle cx={130} cy={540 + 267} d={convertFeetToPixels(2)} label={"Goldenrod"}/>
+                <Circle cx={130} cy={150 + 267} d={convertFeetToPixels(2)} label={"Goldenrod"}/>
+                <Circle cx={130} cy={190 + 267} d={convertFeetToPixels(2)} label={"Goldenrod"}/>
+                <Circle cx={180} cy={190 + 267} d={convertFeetToPixels(2)} label={"Goldenrod"}/>
+              </g>
 
               <g fill={"#ffffff"}>
                 <Circle cx={590} cy={310 + 267} d={convertFeetToPixels(1.25)} label={"Pow Wow"}/>
@@ -183,8 +176,8 @@ function App() {
 
               <g fill={"#b2305b"}>
                 {/*https://www.highcountrygardens.com/product/perennial-plants/centranthus-ruber-coccineus*/}
-                <Circle cx={150} cy={180 + 267} d={convertFeetToPixels(2.5)} label={"Valerian"}/>
-                <Circle cx={300} cy={390 + 267} d={convertFeetToPixels(2.5)} label={"Valerian"}/>
+                <Circle cx={280} cy={300 + 267} d={convertFeetToPixels(2.5)} label={"Valerian"}/>
+                <Circle cx={280} cy={400 + 267} d={convertFeetToPixels(2.5)} label={"Valerian"}/>
               </g>
 
               <g fill={"#fffb00"}>
@@ -199,8 +192,9 @@ function App() {
               <g fill={"#aea3d5"}>
                 {/* 48" tall */}
                 {/*https://www.highcountrygardens.com/product/perennial-plants/perovskia-atriplicifolia-blue-spires*/}
-                <Circle cx={220} cy={215 + 267} d={convertFeetToPixels(4)} label={"russian sage"}/>
-                <Circle cx={260} cy={450 + 267} d={convertFeetToPixels(4)} label={"russian sage"}/>
+                <Circle cx={260} cy={215 + 267} d={convertFeetToPixels(4)} label={"russian sage"}/>
+                <Circle cx={210} cy={350 + 267} d={convertFeetToPixels(4)} label={"russian sage"}/>
+                <Circle cx={260} cy={480 + 267} d={convertFeetToPixels(4)} label={"russian sage"}/>
                 <Circle cx={620} cy={105 + 267} d={convertFeetToPixels(4)} label={"russian sage"}/>
               </g>
 
@@ -208,69 +202,68 @@ function App() {
                 <Circle cx={700} cy={285 + 267} d={10} label={""}/>
               </g>
 
-
-              <g fill={"#a8b298"}>
-                {/*<Circle cx={150} cy={250 + 267} d={convertFeetToPixels(2)} label={"Blue Oat Grass"}/>*/}
-              </g>
-
-              {/*<path d="M350 610 Q400 480 470 610 Q520 480 600 610" fill={"#6c9827"}/>*/}
-              {/*<text fill="#000000" fontSize="12"*/}
-              {/*      x={490} y={590}>ground cover*/}
-              {/*</text>*/}
-              <g fill={"#c766d8"}>
-                {/* 6" tall */}
-                {/*https://www.highcountrygardens.com/product/perennial-plants/purple-beauty-creeping-phlox*/}
-                {/*<Circle cx={555} cy={390 + 267} d={convertFeetToPixels(2)} label={"phlox"}/>*/}
-                {/*<Circle cx={595} cy={400 + 267} d={convertFeetToPixels(2)} label={"phlox"}/>*/}
-                {/*<Circle cx={555} cy={440 + 267} d={convertFeetToPixels(2)} label={"phlox"}/>*/}
-              </g>
               <g fill={"#bea4e2"}>
                 {/*https://www.highcountrygardens.com/product/perennial-plants/echinops-banaticus-blue-glow*/}
-                <Circle cx={200} cy={435 + 267} d={convertFeetToPixels(1.5)} label={"echinops"}/>
-                <Circle cx={220} cy={350 + 267} d={convertFeetToPixels(1.5)} label={"echinops"}/>
-                <Circle cx={260} cy={270 + 267} d={convertFeetToPixels(1.5)} label={"echinops"}/>
+                <Circle cx={290} cy={350 + 267} d={convertFeetToPixels(1.5)} label={"echinops"}/>
+                {/*<Circle cx={200} cy={430 + 267} d={convertFeetToPixels(1.5)} label={"echinops"}/>*/}
+                {/*<Circle cx={200} cy={270 + 267} d={convertFeetToPixels(1.5)} label={"echinops"}/>*/}
               </g>
+
+              <g fill={"#de5abf"}>
+                {/*https://www.highcountrygardens.com/product/perennial-plants/agastache-cana-rosita*/}
+                <Circle cx={560} cy={550 + 267} d={convertFeetToPixels(1.5)} label={"Rosita Agastache"}/>
+              </g>
+
               <g fill={"#8e3eff"}>
                 {/* 18" tall */}
                 {/*https://www.highcountrygardens.com/product/perennial-plants/lavandula-angustifolia-vera*/}
+                <Circle cx={130} cy={235 + 267} d={convertFeetToPixels(2)} label={"lavender"}/>
+                <Circle cx={130} cy={285 + 267} d={convertFeetToPixels(2)} label={"lavender"}/>
+                <Circle cx={130} cy={335 + 267} d={convertFeetToPixels(2)} label={"lavender"}/>
+                <Circle cx={130} cy={385 + 267} d={convertFeetToPixels(2)} label={"lavender"}/>
                 <Circle cx={130} cy={435 + 267} d={convertFeetToPixels(2)} label={"lavender"}/>
-                <Circle cx={180} cy={490 + 267} d={convertFeetToPixels(2)} label={"lavender"}/>
-                <Circle cx={130} cy={485 + 267} d={convertFeetToPixels(2)} label={"lavender"}/>
-                <Circle cx={180} cy={545 + 267} d={convertFeetToPixels(2)} label={"lavender"}/>
-                <Circle cx={130} cy={535 + 267} d={convertFeetToPixels(2)} label={"lavender"}/>
-                <Circle cx={130} cy={585 + 267} d={convertFeetToPixels(2)} label={"lavender"}/>
               </g>
-              <g fill={"#f672dd"}>
-                {/*https://www.highcountrygardens.com/product/perennial-plants/callirhoe-involucrata*/}
-                <Circle cx={230} cy={570 + 267} d={convertFeetToPixels(2.5)} label={"purple mallow"}/>
-                <Circle cx={280} cy={570 + 267} d={convertFeetToPixels(2.5)} label={"purple mallow"}/>
-                {/*<Circle cx={250} cy={520 + 267} d={convertFeetToPixels(2.5)} label={"purple mallow"}/>*/}
+
+              <g fill={"#ffffff"}>
+                {/* 18" tall */}
+                {/* https://www.highcountrygardens.com/product/perennial-plants/melampodium-leucanthum */}
+                {/*<Circle cx={125} cy={485 + 267} d={convertFeetToPixels(1.5)} label={"Blackfoot Daisy (Melampodium)"}/>*/}
+                {/*<Circle cx={125} cy={385 + 267} d={convertFeetToPixels(1.5)} label={"Blackfoot Daisy (Melampodium)"}/>*/}
               </g>
               <g fill={"#d9bec9"}>
                 {/* 24" tall */}
                 {/*https://www.highcountrygardens.com/product/perennial-plants/aster-oblongifolius-raydons-favorite*/}
-                {/*<Circle cx={560} cy={405 + 267} d={convertFeetToPixels(2)} label={"Asters"}/>*/}
-                {/*<Circle cx={605} cy={435 + 267} d={convertFeetToPixels(2)} label={"Asters"}/>*/}
-                {/*<Circle cx={560} cy={465 + 267} d={convertFeetToPixels(2)} label={"Asters"}/>*/}
+                <Circle cx={335} cy={130 + 267} d={convertFeetToPixels(2)} label={"Asters"}/>
+                <Circle cx={335} cy={180 + 267} d={convertFeetToPixels(2)} label={"Asters"}/>
+                <Circle cx={380} cy={160 + 267} d={convertFeetToPixels(2)} label={"Asters"}/>
                 <Circle cx={380} cy={310 + 267} d={convertFeetToPixels(2)} label={"Asters"}/>
                 <Circle cx={335} cy={340 + 267} d={convertFeetToPixels(2)} label={"Asters"}/>
                 <Circle cx={380} cy={360 + 267} d={convertFeetToPixels(2)} label={"Asters"}/>
                 <Circle cx={380} cy={520 + 267} d={convertFeetToPixels(2)} label={"Asters"}/>
-                <Circle cx={330} cy={505 + 267} d={convertFeetToPixels(2)} label={"Asters"}/>
-                <Circle cx={335} cy={560 + 267} d={convertFeetToPixels(2)} label={"Asters"}/>
+                <Circle cx={330} cy={495 + 267} d={convertFeetToPixels(2)} label={"Asters"}/>
+                <Circle cx={335} cy={550 + 267} d={convertFeetToPixels(2)} label={"Asters"}/>
               </g>
-              {/*<g fill={"#8782d8"}>*/}
-              {/*  <Circle cx={330} cy={585 + 267} d={convertFeetToPixels(1.5)} label={"Echinops"}/>*/}
-              {/*</g>*/}
               <g fill={"#e8dbaa"}>
                 {/*https://www.provenwinners.com/plants/nassella-formerly-stipa/mexican-feather-grass-nassella-formerly-stipa-tenuissima*/}
-                <Circle cx={300} cy={260 + 267} d={convertFeetToPixels(2)}
+                <Circle cx={330} cy={280 + 267} d={convertFeetToPixels(2)}
                         label={"Mexican Feather Grass"}/>
-                <Circle cx={280} cy={340 + 267} d={convertFeetToPixels(2)}
+                <Circle cx={330} cy={390 + 267} d={convertFeetToPixels(2)}
                         label={"Mexican Feather Grass"}/>
-                <Circle cx={210} cy={290 + 267} d={convertFeetToPixels(2)}
+                <Circle cx={190} cy={140 + 267} d={convertFeetToPixels(2)}
                         label={"Mexican Feather Grass"}/>
-                <Circle cx={190} cy={390 + 267} d={convertFeetToPixels(2)}
+                <Circle cx={240} cy={140 + 267} d={convertFeetToPixels(2)}
+                        label={"Mexican Feather Grass"}/>
+                <Circle cx={290} cy={140 + 267} d={convertFeetToPixels(2)}
+                        label={"Mexican Feather Grass"}/>
+                <Circle cx={190} cy={550 + 267} d={convertFeetToPixels(2)}
+                        label={"Mexican Feather Grass"}/>
+                <Circle cx={240} cy={550 + 267} d={convertFeetToPixels(2)}
+                        label={"Mexican Feather Grass"}/>
+                <Circle cx={290} cy={550 + 267} d={convertFeetToPixels(2)}
+                        label={"Mexican Feather Grass"}/>
+                <Circle cx={190} cy={430 + 267} d={convertFeetToPixels(2)}
+                        label={"Mexican Feather Grass"}/>
+                <Circle cx={190} cy={270 + 267} d={convertFeetToPixels(2)}
                         label={"Mexican Feather Grass"}/>
               </g>
 
